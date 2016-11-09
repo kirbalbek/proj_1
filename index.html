@@ -1,0 +1,97 @@
+
+<html>
+<head> 
+<title>Швейцария</title> 
+<meta charset="utf-8">
+<script src = "script.js"></script> 
+ <link rel="stylesheet" href="st.css" />
+</head>
+	<body>
+	<table width = "100%">
+	<tr>
+	<td align = "center" colspan = "4"> <h1> Швейцария </h1> </td>
+	</tr>
+	</table>
+	<table width = "100%">
+	<tr>
+	<td align="right"> <a href = "site-final-eng.html"> <img src="brit_pic.png"> </a></td>
+	<td align="left"> <a href = "site-final-chinese.html"> <img src="chin_pic.png"> </a></td>
+	</tr>
+	</table>
+	<table width = "100%">
+	<td width = "33%" bgcolor = "EA0E06" align="center" onclick = "show_text()" >  <h2> Информация </h2></font> </td>
+	<td width = "33%" bgcolor = "EA0E06" align="center" onclick = "show_map()">  <h2> Карта </h2></font></td>
+	<td width = "34%" bgcolor = "EA0E06" align="center" onclick = "show_victorina()"> <h2> Викторина </h2></font></td>
+	</tr>
+	</table>
+	<div id="c2">
+	<img src="swiss.png">
+	<br>
+	<b>Швейцария — государство в Западной Европе. </b> Граничит на севере с Германией, на юге — с Италией, на западе — с Францией, на востоке — с Австрией и Лихтенштейном.<br><br>
+	 Название происходит от наименования одного из трёх первоначальных областей Швиц. <br><br>
+	 Официальными языками Швейцарии являются: немецкий, французский, итальянский и частично ретороманский. <br> <br>
+
+Швейцария — федеративная республика, состоящая из 20 кантонов и 6 полукантонов. <br> <br>
+
+Швейцария — страна без выхода к морю, территория которой делится на три природных региона: горы Юрана севере, Швейцарское плато в центре и Альпы на юге, занимающие 61 % всей территории Швейцарии. <br><br>
+
+	</div>
+	<div id="c1" style = "display: none">
+	<br>
+	<table>
+	<tr>
+	<td width = 20%  align="center"> <h4> <b>Карта Швейцарии </b> </h4> </font> 
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=jM5oJ5GJjqeehcNd3KUTvKdyvEUTfZpU&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+	</td>
+	<td width="80%" align="center" valign="top"> <h4>  Cписок крупнейших городов </h4><br>
+	1.Цюрих<br>
+	2.Женева<br>
+	3.Берн<br>
+	4.Базель <br>
+	</td>
+	</tr>
+	</table>
+	</div> 
+	<div id="c3" style = "display: none">
+	<h4>Викторина по Швейцарии</h4><br/>
+	<form name="test"><ol>
+	<li><INPUT type="text" size="1" value="" name="T1"/><b> какие цвета присутствуют в швейцарском флаге?</b>
+	<br/>
+	<input type="radio" value="0" name="Q1"/> красный, белый<br />
+	<input type="radio" value="1" name="Q1"/> красный, черный<br />
+	<input type="radio" value="2" name="Q1"/> белый, оранжевый<br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T2"/><b> столица Швейцарии (де-факто)</b>
+	<br/>
+	<input type="radio" value="0" name="Q2"/> Берн<br />
+	<input type="radio" value="1" name="Q2"/> Цюрих<br />
+	<input type="radio" value="2" name="Q2"/> Женева<br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T3"/><b> государственная валюта Швейцарии</b>
+	<br/>
+	<input type="radio" value="0" name="Q3"/> швейцарские драхмы<br />
+	<input type="radio" value="1" name="Q3"/> швейцарские фунты<br />
+	<input type="radio" value="2" name="Q3"/> швейцарские франки<br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T4"/><b> какой горный хребет присутствует в Швейцарии?</b>
+	<br/>
+	<input type="radio" value="0" name="Q4"/> Гималаи<br />
+	<input type="radio" value="1" name="Q4"/> Альпы<br />
+	<input type="radio" value="2" name="Q4"/> Лотарингия<br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T5"/><b> Какой язык не является официальным языком Швейцарии?</b>
+	<br/>
+	<input type="radio" value="0" name="Q5"/> немецкий<br />
+	<input type="radio" value="1" name="Q5"/> итальянкий<br />
+	<input type="radio" value="2" name="Q5"/> английский<br />
+	<br/></li>
+	</ol>      
+
+	<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+	<p> <INPUT onclick="check_me()" type="button" value="Проверить результат"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+	<INPUT type="reset" value="Сбросить ответы"/> </p>
+     
+	</form> 
+	</div>
+	</body>
+</html>

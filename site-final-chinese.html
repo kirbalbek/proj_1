@@ -1,0 +1,93 @@
+<html>
+<head> <title>瑞士</title> 
+<meta charset="utf-8">
+<script src = "chin_script.js"></script> 
+ <link rel="stylesheet" href="st.css" />
+</head>
+	<body>
+
+	<table width = "100%">
+	<tr>
+	<td align = "center" colspan = "4"> <h1> 瑞士 </h1> </td>
+	</tr>
+	</table>
+	<table width = "100%">
+	<tr>
+	<td align="right"> <a href = "site-final-eng.html"> <img src="brit_pic.png"> </a></td>
+	<td align="left"> <a href = "index.html"> <img src="rus_pic.png"> </a></td>
+	</tr>
+	</table>
+	<table width = "100%">
+	<td width = "33%" bgcolor = "EA0E06" align="center" onclick = "show_text()" >  <h2> 信息 </h2></font> </td>
+	<td width = "33%" bgcolor = "EA0E06" align="center" onclick = "show_map()">  <h2> 地图 </h2></font></td>
+	<td width = "34%" bgcolor = "EA0E06" align="center" onclick = "show_victorina()"> <h2> 测验 </h2></font></td>
+	</tr>
+	</table>
+	<div id="c2">
+	<img src="swiss.png">
+	<br>
+
+<b>瑞士联邦简称“瑞士”，是中欧国家之一。</b><br><br>
+全国划分为26个州。瑞士北邻德国，西邻法国，南邻意大利，东邻奥地利和列支敦士登。<br><br>
+瑞士全国地形高峻，全境分中南部的阿尔卑斯山脉（占总面积的60%）<br><br>
+伯尔尼是联邦政府所在地<br><br>
+	</div>
+	<div id="c1" style = "display: none">
+	<br>
+	<table>
+	<tr>
+	<td width = 20%  align="center"> <h4> <b>Map of the Switzerland </b> </h4> </font> 
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=jM5oJ5GJjqeehcNd3KUTvKdyvEUTfZpU&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+	</td>
+	<td width="80%" align="center" valign="top"> <h4>  最大的城市: </h4><br>
+	1.苏黎世<br>
+	2.日内瓦<br>
+	3.伯尔尼<br>
+	4.巴塞尔 <br>
+	</td>
+	</tr>
+	</table>
+	</div> 
+	<div id="c3" style = "display: none">
+	<h4>瑞士的测验</h4><br/>
+	<form name="test"><ol>
+	<li><INPUT type="text" size="1" value="" name="T1"/><b> 瑞士的旗有什么颜色 ?</b>
+	<br/>
+	<input type="radio" value="0" name="Q1"/> 红色、白色<br />
+	<input type="radio" value="1" name="Q1"/> 红色、黑色<br />
+	<input type="radio" value="2" name="Q1"/> 白色、蓝色<br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T2"/><b> 哪一个城市是瑞士的资本? </b>
+	<br/>
+	<input type="radio" value="0" name="Q2"/> 伯尔尼 <br />
+	<input type="radio" value="1" name="Q2"/> 苏黎世 <br />
+	<input type="radio" value="2" name="Q2"/> 日内瓦 <br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T3"/><b> 哪一个货币是瑞士的本国货币?</b>
+	<br/>
+	<input type="radio" value="0" name="Q3"/> 瑞士美元<br />
+	<input type="radio" value="1" name="Q3"/> 瑞士元<br />
+	<input type="radio" value="2" name="Q3"/> 瑞士法郎 <br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T4"/><b> 瑞士有多少州?</b>
+	<br/>
+	<input type="radio" value="0" name="Q4"/> 4 <br />
+	<input type="radio" value="1" name="Q4"/> 26 <br />
+	<input type="radio" value="2" name="Q4"/> 28 <br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T5"/><b> 哪一个语不是瑞士官方的?</b>
+	<br/>
+	<input type="radio" value="0" name="Q5"/> 德语<br />
+	<input type="radio" value="1" name="Q5"/> 意大利语<br />
+	<input type="radio" value="2" name="Q5"/> 英语<br />
+	<br/></li>
+	</ol>      
+
+	<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+	<p> <INPUT onclick="check_me()" type="button" value="看结果"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+	<INPUT type="reset" value="干净答案"/> </p>
+     
+	</form> 
+	</div>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+<html>
+<head> <title>Switzerland</title> 
+<meta charset="utf-8">
+<script src = "eng_script.js"></script> 
+ <link rel="stylesheet" href="st.css" />
+</head>
+	<body>
+
+	<table width = "100%">
+	<tr>
+	<td align = "center" colspan = "4"> <h1> Switzerland </h1> </td>
+	</tr>
+	</table>
+	<table width = "100%">
+	<tr>
+	<td align="right"> <a href = "site-final-chinese.html"> <img src="chin_pic.png"> </a></td>
+	<td align="left"> <a href = "index.html"> <img src="rus_pic.png"> </a></td>
+	</tr>
+	</table>
+	<table width = "100%">
+	<td width = "33%" bgcolor = "EA0E06" align="center" onclick = "show_text()" >  <h2> Information </h2></font> </td>
+	<td width = "33%" bgcolor = "EA0E06" align="center" onclick = "show_map()">  <h2> Map </h2></font></td>
+	<td width = "34%" bgcolor = "EA0E06" align="center" onclick = "show_victorina()"> <h2> Quiz </h2></font></td>
+	</tr>
+	</table>
+	<div id="c2">
+	<img src="swiss.png">
+	<br>
+
+<b>Switzerland is a federal republic in Europe. </b> <br> <br> 
+The country is situated in Western-Central Europe, and is bordered by Italy to the south, France to the west, Germany to the north, and Austria and Liechtenstein to the east.<br><br>
+While the Alps occupy the greater part of the territory, the Swiss population of approximately eight million people is concentrated mostly on the plateau, where the largest cities are to be found: among them are the two global and economic centres Zürich and Geneva.<br><br>
+Official languages are: German, French, Italian and Romansh. <br> <br>
+Modern Switzerland is a federal directorial republic consisting of 26 cantons, with Bern as the seat of the federal authorities.<br><br>
+
+	</div>
+	<div id="c1" style = "display: none">
+	<br>
+	<table>
+	<tr>
+	<td width = 20%  align="center"> <h4> <b>Map of the Switzerland </b> </h4> </font> 
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=jM5oJ5GJjqeehcNd3KUTvKdyvEUTfZpU&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+	</td>
+	<td width="80%" align="center" valign="top"> <h4>  List of the biggest cities: </h4><br>
+	1.Zurich<br>
+	2.Geneva<br>
+	3.Bern<br>
+	4.Basel <br>
+	</td>
+	</tr>
+	</table>
+	</div> 
+	<div id="c3" style = "display: none">
+	<h4>Quiz about Switzerland</h4><br/>
+	<form name="test"><ol>
+	<li><INPUT type="text" size="1" value="" name="T1"/><b> Which colors does Swiss flag consist of ?</b>
+	<br/>
+	<input type="radio" value="0" name="Q1"/> red, white<br />
+	<input type="radio" value="1" name="Q1"/> red, black<br />
+	<input type="radio" value="2" name="Q1"/> white, orange<br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T2"/><b> Which city is the capital of the Swizerland? (de facto)</b>
+	<br/>
+	<input type="radio" value="0" name="Q2"/> Bern <br />
+	<input type="radio" value="1" name="Q2"/> Zurich <br />
+	<input type="radio" value="2" name="Q2"/> Geneva <br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T3"/><b> Which is the national currency of Switzerland?</b>
+	<br/>
+	<input type="radio" value="0" name="Q3"/> Swiss dollar<br />
+	<input type="radio" value="1" name="Q3"/> Euro <br />
+	<input type="radio" value="2" name="Q3"/> Swiss franc <br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T4"/><b> Which of these mountain ranges exist in the Switzerland?</b>
+	<br/>
+	<input type="radio" value="0" name="Q4"/> Himalayas<br />
+	<input type="radio" value="1" name="Q4"/> Alpes <br />
+	<input type="radio" value="2" name="Q4"/> Lorrain <br />
+	<br/></li>
+	<li><INPUT type="text" size="1" value="" name="T5"/><b> Which of these languages is not an official one?</b>
+	<br/>
+	<input type="radio" value="0" name="Q5"/> German<br />
+	<input type="radio" value="1" name="Q5"/> Italian<br />
+	<input type="radio" value="2" name="Q5"/> English<br />
+	<br/></li>
+	</ol>      
+
+	<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+	<p> <INPUT onclick="check_me()" type="button" value="Check the result"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+	<INPUT type="reset" value="Reset answers"/> </p>
+     
+	</form> 
+	</div>
+	</body>
+</html>

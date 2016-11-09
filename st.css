@@ -1,0 +1,22 @@
+body
+{
+    background-image: url(fonoviy.jpg);
+    font-size: 17px;
+    color: #000000;  
+    font-family: "constantia";
+}
+h1
+{
+	font-size: 45px; 
+	color: #FF0000;
+}
+h2
+{
+	font-size: 25px; 
+	color: #FFFFFF;
+}
+h4
+{
+	font-size: 25px; 
+	color: #9D0000;
+}
